@@ -103,7 +103,10 @@ mark {
 }
 
 body {
-  line-height: 1
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
 }
 
 ul {
